@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" id="reg-form">
+        <div>
+          <h1>Register</h1>
+          <div>
+            <div>
+              <input type="text" name="name" id="fullName"/>
+              <label class="form-label" for="fullName">Full Name</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Email input -->
+        <div>
+          <input type="email" name="email" id="email"/>
+          <label class="form-label" for="email">Email address</label>
+        </div>
+
+        <!-- Password input -->
+        <div>
+          <input type="password" name="password" id="pass"/>
+          <label class="form-label" for="pass">Password</label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit">
+          Sign up
+        </button>
+
+        <!-- Register buttons -->
+        <div>
+          <p>Already have an account? <a href="login.html">Login</a></p>
+        
+        </div>
+      </form>
+      <script src="/js/users.js"></script>
+</body>
+</html>
